@@ -9,7 +9,7 @@
 
 	//冒泡排序
 	header("content-type:text/html;charset=utf-8");
-	$arr = array(3,5,8,4,9,6,1,7,2);
+	$arr = array(3,4,8,4,9,6,1,7,2);
 	echo implode(" ", $arr);
 	echo "</br>";
 	echo '变量类型为：'.gettype($arr);
